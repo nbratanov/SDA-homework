@@ -29,6 +29,5 @@ int main()
 	sortedList.RemoveDuplicates(s);
 	sortedList.print();
 	
-
 	return 0;
 }
