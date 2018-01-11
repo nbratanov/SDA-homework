@@ -52,7 +52,7 @@ LList<T>& LList<T>::operator=(LList const &rs)
 	if (this != &rs)
 	{
 		DeleteList();
-		CopyList();
+		CopyList(rs);
 	}
 	return *this;
 }
